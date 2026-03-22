@@ -13,9 +13,3 @@ class Personne:
             return "Imc normal"
         elif imc_calcul>=30:
             return "Obésité"
-aziz= Personne(1.67, 63 , 18 )
-imc_de_ghita= ghita.IMC()
-
-print(f"L'IMC de Ghita est : {imc_de_ghita:.1f}")
-
-print(f"Interprétation : {ghita.interpretation(imc_de_ghita)}")
